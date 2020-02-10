@@ -1,9 +1,11 @@
 import Value from "./Models/Value.js";
+import Question from "./Models/Question.js"
 
 let _state = {
   activeValue: new Value({ title: "Value" }),
   /** @type {Value[]} */
   values: []
+  questions: []
 };
 
 /** Collection of listeners to be called based on keyed state changes
