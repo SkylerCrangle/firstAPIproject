@@ -1,6 +1,6 @@
 export default class Question {
   constructor(data) {
-    this.title = data.title
+    // this.title = data.title
     this.id = data.id
     this.question = data.question
     this.answer = data.answer
